@@ -73,30 +73,36 @@ h1{
 }
 
 
-
+.section-2{
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 
 .bloque-opiniones {
   display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
+ 
   gap: 20px;
   flex-wrap: wrap;
+  background-color: aquamarine;
 }
 
 .opinion {
-  background-color: #50276b;
+  background-color:#511f50;
   color: white;
   padding: 20px;
   border-radius: 10px;
-  flex: 1;
+  flex: 1.5;
   min-width: 280px;
+  min-height: 200px;
 }
 
 .usuario {
   display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  gap: 30px;
+  text-align: center;
 }
 
 .usuario img {
@@ -104,8 +110,19 @@ h1{
   height: 40px;
   border-radius: 50%;
 }
+.opinion strong{
+  color: white;
+  line-height:1.5;
+}
+.opinion p{
+  color: white;
+  line-height:1.5;
+}
 .usuario span {
   color: #d49edd;
   font-size: 14px;
 }
+ .opinion:nth-child(1){text-align:left;}
+ .opinion:nth-child(2){text-align: center;}
+ .opinion:nth-child(3){text-align: right;}
 
