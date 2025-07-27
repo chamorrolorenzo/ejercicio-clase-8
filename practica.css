@@ -73,11 +73,14 @@ h1{
 }
 
 
-.section-2{
+.section-2 {
   max-width: 1000px;
-  margin: 0 auto;
+  margin:  auto;
   margin-top: 60px;
   margin-bottom: 60px;
+  background-color: aquamarine;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .bloque-opiniones {
@@ -86,6 +89,7 @@ h1{
   gap: 20px;
   flex-wrap: wrap;
   background-color: aquamarine;
+
 }
 
 .opinion {
@@ -102,7 +106,7 @@ h1{
   display: flex;
   margin-top: 20px;
   gap: 30px;
-  text-align: center;
+  
 }
 
 .usuario img {
@@ -122,7 +126,6 @@ h1{
   color: #d49edd;
   font-size: 14px;
 }
- .opinion:nth-child(1){text-align:left;}
- .opinion:nth-child(2){text-align: center;}
- .opinion:nth-child(3){text-align: right;}
+ .opinion:nth-child(1){transform: translateY(-30px);}
+ .opinion:nth-child(3){transform: translateY(30px);}
 
