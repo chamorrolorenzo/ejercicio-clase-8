@@ -6,7 +6,7 @@
   color: #6B306B;
 }
 .section-1 {
-   height: 100%;
+   height: 80%;
   display: flex;
  justify-content: center;  
 }
@@ -20,14 +20,14 @@ h1{
   display: flex;
   padding: 50px;
   padding: 50px 20px;
-  gap: 150px;
+  gap: 100px;
+  flex-wrap: wrap;
 }
 
 .puntuacion-titulares
 { 
- min-width: 200px;
- width: 45%;
- justify-content: left;
+ min-width: 100px;
+ width: 35%;
 }
 
  .puntuacion-titulares p{
@@ -42,8 +42,8 @@ h1{
   gap: 20px;
   text-align: center;
   padding: 20px;
-  min-width: 300px;
-  width: 65%;
+  min-width: 350px;
+  width: 45%;
 }
 
 .estrella1, .estrella2, .estrella3{
@@ -76,15 +76,15 @@ h1{
 .section-2 {
   max-width: 1000px;
   margin:  auto;
-  margin-top: 60px;
+  margin-top: 20px;
   margin-bottom: 60px;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .bloque-opiniones {
   display: flex;
-   gap: 20px;
+   gap: 10px;
   flex-wrap: wrap;
 }
 
@@ -120,7 +120,7 @@ h1{
 }
 .usuario span {
   color: #d49edd;
-  font-size: 14px;
+  font-size: 10px;
 }
  .opinion:nth-child(1){transform: translateY(-30px);}
  .opinion:nth-child(3){transform: translateY(30px);}
